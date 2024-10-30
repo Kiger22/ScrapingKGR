@@ -20,8 +20,7 @@ Este proyecto realiza scraping de un sitio web de bicicletas, extrayendo informa
 1 Clona este repositorio:
 
 ```bash
-  git clone https://github.com/tuusuario/nombre-repositorio.git
-  cd nombre-repositorio
+  git clone https://github.com/Kiger22/ScrapingKGR
 ```
 
 2 Instala las dependencias necesarias:
@@ -80,7 +79,7 @@ El script verifica si existe un enlace de "Cargar más". Si es así, hace clic e
 
 - Cambios en la Estructura del Sitio Web: Este script depende de la estructura HTML del sitio. Si el sitio cambia, los selectores podrían necesitar actualización.
 
-- Tiempo de Espera: Dependiendo de la conexión, puedes ajustar el tiempo de espera (page.waitForSelector) para mejorar el rendimiento o evitar errores.
+- Tiempo de Espera: Dependiendo de la conexión, puedes ajustar el tiempo de espera para mejorar el rendimiento o evitar errores.
 
 - Legalidad y Respeto a los Términos de Uso: Asegúrate de que el scraping esté permitido en el sitio web objetivo y respeta los términos de uso.
 
